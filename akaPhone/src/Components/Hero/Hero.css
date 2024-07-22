@@ -1,0 +1,129 @@
+
+.hero-container{
+     display: flex;
+     align-items: center;
+     font-family: sans-serif;
+}
+.hero-title{
+    font-family: Montserrat , sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 30px;
+    color: rgb(51, 51, 51);
+}
+.hero-sub_title{
+    font-family: Montserrat , sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: justify;
+    color: rgb(51, 51, 51);
+    margin-bottom: 30px;
+}
+.hero-btn{
+    font-family: Montserrat , sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 164.4%;
+    background: rgb(235, 77, 77);
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    border: rgb(235, 77, 77);
+    padding: 17px 50px;
+}
+.hero-left{
+    width: 50%;
+    padding: 10px;
+}
+.hero-right{
+    width: 50%;
+}
+
+/* Swiper style =>*/
+.mySwiper{
+    height: 100% !important;
+    width: 100% !important;
+     
+}
+.swiperSlide {
+    padding-bottom: 20px;
+     
+    background: url('https://aka-phone.netlify.app/images/slider_bg.jpg') !important;
+    margin-bottom: 20px;
+}
+.swiper-pagination-bullet{
+    border-radius: 0%;
+}
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+ margin: -10px ;
+ width: 40px;
+}
+.swiperLink{
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+
+}
+.active {
+    pointer-events: auto;
+}
+
+
+.swiper-pagination {
+    position: absolute;
+    text-align: left !important;
+    transition: 300ms opacity;
+    transform: translate3d(0, 0, 0);
+    z-index: 1 !important;
+}
+.swiper-slide{
+    display: block !important;
+}
+:root {
+    --swiper-theme-color: #646161;
+}
+  
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+/*================*/
+
+
+@media(max-width:845px){
+    .hero-container{
+        flex-direction: column-reverse;
+    }
+    .hero-left{
+        width: 100%;
+    }
+    .hero-right{
+        width: 100%;
+    }
+
+}
+
+
