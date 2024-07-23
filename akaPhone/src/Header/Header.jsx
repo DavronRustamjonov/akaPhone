@@ -26,11 +26,7 @@ function Header() {
 
           </ul>
           <ul><a to="/korzinka"><span className='navbar-icon' style={{ border: "1px  solid red" }} ></span></a></ul>
-          <ul>
-            <li>
-            
-            </li>
-          </ul>
+          
 
         </div>
 

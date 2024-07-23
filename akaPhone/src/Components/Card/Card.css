@@ -1,0 +1,50 @@
+.chegirmaBg{
+    width: 70px !important;
+    height: 70px !important;
+    z-index: -1;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.data-title{
+    font-size: 17px;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 20px;
+
+}
+.card{
+    font-family: sans-serif;
+    padding-top: 20px;
+}
+.card-position{
+    position: absolute;
+    right: 15px;
+    top: 25px;
+    color: rgb(255, 255, 255);
+}
+.product-btn{
+    align-items: center;
+    width: 100%;
+    border: none;
+    padding: 10px;   
+    color: rgb(255, 255, 255);
+    background-color: rgb(235, 77, 77);
+    border: 2px solid rgb(235, 77, 77);
+    color: rgb(255, 255, 255);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.product_btn{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.data-img{
+    height: 300px !important;
+    width: auto;
+    transition: all 0.3s ease;
+}
+.data-img:hover{
+    transform: scale(1.01);
+}
