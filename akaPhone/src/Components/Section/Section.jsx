@@ -104,7 +104,7 @@ function Section() {
               scrollbar={{ draggable: true }}
               className='swiper'
             >
-              {/* Map over the products array to render each product as a SwiperSlide */}
+      
               {products.map((product, index) => (
                 <SwiperSlide key={index}>
                   <Card data={product} />
