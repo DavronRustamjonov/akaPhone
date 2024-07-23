@@ -84,6 +84,11 @@ function Section() {
     
    
   ];
+  const link=[
+    {
+     
+    }
+  ]
 
   return (
     <div className='section'>

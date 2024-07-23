@@ -1,39 +1,39 @@
 import { createBrowserRouter } from "react-router-dom";
-import Header from "../Header/Header";
-// import Korzinka from "../Components/Korzinka/Korzinka";
 import App from "../App";
-import Hero from "../Components/Hero/Hero";
-import Section from "../Components/Section/Section";
-/*          Menu End             */
+import Nested from "../components/Nested";
+import Lavash from "../components/Lavash";
+import Desert from "../components/Desert";
+import Set from "../components/Set";
+import Slider from "../Components/Slider";
 
-const router = createBrowserRouter([
-    {
+const routes = [
+  {
+    path: "/",
+    element: <App />,
+    children: [
+      {
+        
         path: "/",
-        element: <App/>,
-        children: [   {
+        element: <Slider/>,
+        children: [
+          {
             path: "/",
-            element: <Header/>,
-         children:[{
+            element: </>,
+          },
+          {
             path: "/",
-            element: <Hero/>,
-        },
-        {
+            element: < />,
+          },
+          {
+            path: "/",
+            element: < />,
+          },
+        ],
+      },
+    ],
+  },
+];
 
-        }
-    
-    ]
+const router = createBrowserRouter(routes);
 
-        },
-       {
-        path: "/",
-        element: <Section/>,
-
-       }
-
-        ]
-
-    }
- 
-
-])
-export default router
+export default router;

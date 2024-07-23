@@ -1,10 +1,13 @@
 import React from 'react'
-import './Korzinka.css'
+import Header from '../../Header/Header'
+import Footer from '../../Footer/Footer'
+import CardLink from '../CardLink/CardLink'
 function Korzinka() {
   return (
     <div>
-        <div className="korzinka">Корзина</div>
-       
+      <Header/>
+      <CardLink/>
+      <Footer/>
     </div>
   )
 }
