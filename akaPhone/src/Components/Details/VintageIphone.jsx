@@ -1,6 +1,6 @@
 import React from 'react'
 import CardLink from '../CardLink/CardLink'
-import ProductImg4 from '/product4.png'
+import ProductImg4 from '/product6.png'
 const Detal4=[{
     span:"Apple",
     title:"Vintage Iphone",

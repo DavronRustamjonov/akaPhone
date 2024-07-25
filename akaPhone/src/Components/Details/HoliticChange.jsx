@@ -1,5 +1,5 @@
 import React from 'react'
-import ProductImg7 from '/product2.png'
+import ProductImg7 from '/product13.png'
 import CardLink from '../CardLink/CardLink'
 function HoliticChange() {
     const Detal7=[{

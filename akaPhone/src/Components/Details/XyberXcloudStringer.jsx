@@ -1,5 +1,5 @@
 import React from 'react'
-import ProductImg8 from '/product12.png'
+import ProductImg8 from '/product11.png'
 
 import CardLink from '../CardLink/CardLink'
 function XyberXcloudStringer() {
