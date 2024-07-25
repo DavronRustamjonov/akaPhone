@@ -31,9 +31,8 @@ ul{
 .cardLink-footer-list{
     display: flex;
     justify-content: flex-start;
-    
 }
-h2{
+.cardLink-title{
     font-family: Montserrat , sans-serif;
     font-style: normal;
     font-weight: bold;

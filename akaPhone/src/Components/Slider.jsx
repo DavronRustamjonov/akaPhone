@@ -1,12 +1,13 @@
 import React from 'react'
-import SliderMenu from './SliderMenu/SliderMenu'
-import { Outlet } from 'react-router'
+import Footer from '../Footer/Footer'
+import Section from './Section/Section'
 
 function Slider() {
   return (
     <div>
-      <SliderMenu/>
-      <Outlet/>
+      <Header/>
+      <Section/>
+      <Footer/>
     </div>
   )
 }

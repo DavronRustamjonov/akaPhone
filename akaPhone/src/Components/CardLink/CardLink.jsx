@@ -1,12 +1,12 @@
 import React from 'react'
 import './CardLink.css'
-import Details1 from '/product1.png' 
+
 const CardLink =({dataLink}) =>{
   return (
     <div className='cardLink'>
     <div className='container cardLink-container'>
       <div className="cardLink-wrapper">
-       <img src={Details1} alt="details pic" />
+       {dataLink.img}
       </div>
       <div className="cardLink-wrapper">
         <ul className='cardLink-top-list'>
