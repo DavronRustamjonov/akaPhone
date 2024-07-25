@@ -2,9 +2,6 @@ import Korzinka from '../Korzinka/Korzinka'
 import './Card.css'
 import React from 'react'
 const Card = ({data}) => {
-    
-
-    
   return (
     <div className='card'>
    <div className='card-top'> <h2 className='data-title'>{data.title}</h2>

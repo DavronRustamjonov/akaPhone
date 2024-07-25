@@ -1,5 +1,6 @@
 import React from 'react'
 import './Header.css'
+import { Link } from 'react-router-dom'
 function Header() {
   return (
     <div className='header'>
@@ -21,10 +22,10 @@ function Header() {
               <p className='header-next-text'>+998(90) 225-19-97</p>
               <a href="tel: +998996770899" class="btn_p">Заказать звонок</a>
             </li>
-            <li className='header-item'><><a href="#"><svg className='header-icon' stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg></a></></li>
+            <li className='header-item'><><Link to="/korzinka" ><svg className='header-icon' stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg></Link></></li>
 
           </ul>
-          <ul><a  ><span className='navbar-icon' style={{ border: "1px  solid red" }} ></span></a></ul>
+          <ul><a   ><span className='navbar-icon' style={{ border: "1px  solid red" }} ></span></a></ul>
           
 
         </div>

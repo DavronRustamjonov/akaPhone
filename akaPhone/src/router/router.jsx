@@ -1,20 +1,22 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
-import Slider from "../Components/Slider";
+import Layout from "../Components/Layout";
+import Korzinka from "../Components/Korzinka/Korzinka";
 
 const routes = [
   {
     path: "/",
     element: <App />,
     children: [
-      {
-        
+      {        
         path: "/",
-        element: <Slider/>,
-        children: [
-         
-        ],
+        element: <Layout/>,
       },
+      {
+        path: "/korzinka",
+        element: <Korzinka/>,
+      }
+      
     ],
   },
 ];

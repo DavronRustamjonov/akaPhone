@@ -5,13 +5,11 @@ import Section from "./Components/Section/Section"
 import { Outlet } from 'react-router'
 import Footer from './Footer/Footer'
 import Slider from './Components/Slider'
+import Layout from './Components/Layout'
 function App() {
   return (
     <div>
       <Header/>
-      <Hero/>
-      <Section/>
-      <Slider/>
       <Outlet/>
       <Footer/>
 

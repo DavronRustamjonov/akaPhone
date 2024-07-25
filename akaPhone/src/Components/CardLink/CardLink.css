@@ -1,0 +1,79 @@
+.cardLink-container{
+    font-family: sans-serif;
+
+}
+ul{
+    list-style: none;
+}
+.cardLink-lead{
+     margin-top: 10px;
+}
+.cardLink-container{
+    display: flex;
+    margin: 40px auto;
+}
+.cardLink-text{
+    font-size: 15px;
+    font-family: Montserrat , sans-serif;
+    font-weight: 500;
+}
+.cardLink-span{
+    font-size: 15px;
+    color: rgb(235, 77, 77);
+    font-family: Montserrat , sans-serif;
+}
+.cardLink-price{
+    font-size: 35px;
+    color: rgb(235, 77, 77);
+    margin-right: 30px;
+    margin: 20px auto;
+}
+.cardLink-footer-list{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+h2{
+    font-family: Montserrat , sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 22px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    padding-bottom: 50px;
+}
+.cardLink-button{
+    display: inline-block;
+    text-align: center;
+    font-family: Montserrat , sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    padding: 9px 23px;
+    background-color: transparent;
+    border: 2px solid rgb(235, 77, 77);
+    color: rgb(235, 77, 77);
+    margin-right: 20px;
+    transition: all 0.3s ease;
+}
+.cardLink-next-btn{
+    display: inline-block;
+    text-align: center;
+    font-family: Montserrat , sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    padding: 9px 23px;
+    background-color: transparent;
+    border: 2px solid rgb(49, 169, 221);
+    color: rgb(49, 169, 221);
+    transition: all 0.3s ease;
+}
+.cardLink-next-btn:hover{
+    color: #fff;
+    background-color: rgb(49, 169, 221);
+}
+.cardLink-button:hover{
+    color: #fff;
+    background-color: rgb(235, 77, 77);
+}

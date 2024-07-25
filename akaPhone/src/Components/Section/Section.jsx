@@ -11,6 +11,7 @@ import ProductImg6 from '/product10.png'
 import ProductImg7 from '/product2.png'
 import ProductImg8 from '/product12.png'
 import ProductImg9 from '/product5.png'
+import { Link } from 'react-router-dom';
 function Section() {
   const products = [
     {
@@ -107,7 +108,7 @@ function Section() {
       
               {products.map((product, index) => (
                 <SwiperSlide key={index}>
-                  <Card data={product} />
+                    <Card  data={product}/>
                 </SwiperSlide>
               ))}
             </Swiper>

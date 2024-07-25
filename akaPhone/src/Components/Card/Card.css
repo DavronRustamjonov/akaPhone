@@ -13,6 +13,11 @@
     padding-left: 20px;
 
 }
+.data-price{
+    margin: 10px auto;
+    font-size: 25px;
+    color: rgb(235, 77, 77);
+}
 .card{
     font-family: sans-serif;
     padding-top: 20px;
