@@ -1,12 +1,12 @@
 import React from 'react'
-import ProductImg7 from '/product13.png'
+import CardLinkPic7 from '/product13.png'
 import CardLink from '../CardLink/CardLink'
 function HoliticChange() {
     const Detal7=[{
         span:"Asaxiy UZ",
         title:"Holitic Change",
         price:"8",
-        img:ProductImg7 
+        img:CardLinkPic7 
     }]
   return (
     <div>

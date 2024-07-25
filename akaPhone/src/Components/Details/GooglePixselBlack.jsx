@@ -1,12 +1,11 @@
 import React from 'react'
 import CardLink from '../CardLink/CardLink'
-
-import ProductImg1 from '/product1.png'
+import CardLinkPic1 from '/product1.png'
 const Detal1=[{
     span:"GOOGLE",
     title:"Google Pixel-Black",
     price:"10" ,
-    img:ProductImg1
+    img:CardLinkPic1
 }]
 function GooglePixselBlack() {
   return (

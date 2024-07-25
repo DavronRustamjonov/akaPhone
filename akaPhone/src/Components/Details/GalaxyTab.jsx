@@ -1,6 +1,6 @@
 import React from 'react'
 
-import ProductImg9 from '/product14.png'
+import CardLinkPic9 from '/product14.png'
 
 import CardLink from '../CardLink/CardLink'
 function GalaxyTabS6() {
@@ -8,7 +8,7 @@ function GalaxyTabS6() {
         span:"Galaxy",
         title:"Galaxy Tab S6",
         price:"25",
-        img:ProductImg9 
+        img:CardLinkPic9 
     }]
   return (
     <div>

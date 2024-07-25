@@ -1,11 +1,11 @@
 import React from 'react'
 import CardLink from '../CardLink/CardLink'
-import ProductImg4 from '/product6.png'
+import CardLink4 from '/product6.png'
 const Detal4=[{
     span:"Apple",
     title:"Vintage Iphone",
     price:"17",
-    img:ProductImg4 
+    img:CardLink4 
 }]
 function VintageIphone() {
   return (

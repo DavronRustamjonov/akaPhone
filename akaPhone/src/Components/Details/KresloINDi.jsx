@@ -1,10 +1,10 @@
 import React from 'react'
-import ProductImg6 from '/product10.png'
+import CardLinkPic6 from '/product10.png'
 const Detal6=[{
     span:"INDI",
     title:"Кресло INDI CA-1613A-1",
     price:"8",
-    img:ProductImg6 
+    img:CardLinkPic6 
 }]
 function KresloINDI() {
   return (
