@@ -1,5 +1,6 @@
 import React from 'react'
 import CardLinkPic6 from '/product10.png'
+import CardLink from '../CardLink/CardLink'
 const Detal6=[{
     span:"INDI",
     title:"Кресло INDI CA-1613A-1",

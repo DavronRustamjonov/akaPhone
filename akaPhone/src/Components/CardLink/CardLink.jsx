@@ -5,8 +5,8 @@ const CardLink =({dataLink}) =>{
   return (
     <div className='cardLink'>
     <div className='container cardLink-container'>
-      <div className="cardLink-wrapper">
-       {dataLink.img}
+      <div className="cardLink-left-wrapper">
+       <img src={dataLink.img} alt="" />
       </div>
       <div className="cardLink-wrapper">
         <ul className='cardLink-top-list'>

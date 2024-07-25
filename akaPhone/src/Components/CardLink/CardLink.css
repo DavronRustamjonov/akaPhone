@@ -1,5 +1,7 @@
 .cardLink-container{
     font-family: sans-serif;
+    align-items: center;
+    justify-content: space-between;
 
 }
 ul{
@@ -75,4 +77,8 @@ ul{
 .cardLink-button:hover{
     color: #fff;
     background-color: rgb(235, 77, 77);
+}
+.cardLink-left-wrapper{
+    width:100% ;
+    text-align: center;
 }

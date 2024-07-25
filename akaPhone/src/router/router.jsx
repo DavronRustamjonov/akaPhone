@@ -11,7 +11,26 @@ import HoliticChange from "../Components/Details/HoliticChange";
 import KresloINDI from "../Components/Details/KresloINDi";
 import XyberXcloudStringer from "../Components/Details/XyberXcloudStringer";
 import GalaxyTab from "../Components/Details/GalaxyTab";
-
+//   const dataLink=[{
+//     span:"GOOGLE"
+//   },{
+//     span:"SAMSUNG"
+//   },{
+//     span:"Htc"
+//   },{
+//     span:"Apple"
+//   },{
+//     span:"Lenovo"
+//   },{
+//     span:"INDI"
+//   },{
+//     span:"AsaxiyUZ"
+//   },{
+//     span:"HyperX"
+//   },{
+//     span:"Galaxy"
+//   }
+// ]
 const routes = [
   {
     path: "/",
@@ -49,7 +68,7 @@ const routes = [
         path: "/details/xyberXcloudStringer",
         element: <XyberXcloudStringer/>,
       },{
-        path: "/details/galaxyTabS6",
+        path: "/details/Galaxy",
         element: <GalaxyTab/>,
       }
 
